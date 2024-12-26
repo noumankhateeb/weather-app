@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import axios from "axios"
 
 const API_KEY = "e316ccd0603344ac8ce214044242512";
-const BASE_URL = "http://api.weatherapi.com/v1";
+const BASE_URL = "https://api.weatherapi.com/v1";
 
 export const fetchForecastByCity = createAsyncThunk(
     "weather/fetchForecastByCity",

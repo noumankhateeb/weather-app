@@ -5,11 +5,11 @@
 }
 
 .app-container {
-  height: 100vh;
+  /* height: 100vh; */
   background: url("./assets/cloud.jpg");
   background-size: cover;
   background-position: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .weather-container {
